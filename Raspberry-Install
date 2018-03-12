@@ -1,0 +1,17 @@
+sudo apt-get install make
+sudo apt-get install gcc
+sudo apt-get install build-essential
+
+wget https://raw.githubusercontent.com/Wikelx/mdk3-v6/master/mdk3-v6.tar.bz2
+tar -vxjf mdk3-v6.tar.bz2
+cd mdk3-v6
+sudo make
+sudo make install
+exit
+
+apt-get -y install libssl-dev libnl-3-dev libnl-genl-3-dev ethtool
+wget http://download.aircrack-ng.org/aircrack-ng-1.2-rc3.tar.gz
+tar -zxvf aircrack-ng-1.2-rc3.tar.gz
+cd aircrack-ng-1.2-rc3
+sudo make
+sudo make install
