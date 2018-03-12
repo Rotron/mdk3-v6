@@ -15,3 +15,4 @@ tar -zxvf aircrack-ng-1.2-rc3.tar.gz
 cd aircrack-ng-1.2-rc3
 sudo make
 sudo make install
+exit
